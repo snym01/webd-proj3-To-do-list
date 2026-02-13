@@ -1,0 +1,108 @@
+body {
+    background-color: #D1CCDC;
+    display: flex;
+    justify-content: center;
+}
+
+.appwrapper {
+    max-width: 420px;
+}
+
+#taskbox {
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 0.6rem 0;
+    font-size: 1rem;
+    flex: 1;
+    background: transparent;
+}
+
+#taskbox:focus {
+    outline: none;
+    border-bottom-color: #343434 ;
+}
+
+.todo-card {
+    background-color: #F5EDF0;
+    border-radius: 12px;
+    padding: 1rem 1rem 0rem;
+    max-width: 420px;
+    width: 100%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    margin-top: 1.5rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    min-height: 350px;
+}
+
+.todo-card p {
+    margin-top: 2rem;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.todo-item {
+    padding: 0.6rem 0.8rem;
+    border-radius: 14px;
+    border: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.6rem;
+}
+
+.delete-btn {
+    border: none;
+    background: transparent;
+    color: #343434;
+    font-size: 1rem;
+}
+
+.todo-item .text {
+    flex: 1;
+    color: #343434;
+}
+
+.textbox button {
+    background-color: #343434;
+    color: white;
+    border-radius: 7px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}Your To Do
+
+.quote-container {
+    margin-top: 1.5rem;
+    text-align: left;
+    width: 100%;
+}
+
+.quote {
+    margin: 0;
+    margin-top: 1.5rem;
+}
+
+.textbox {
+    margin-bottom: 1.2rem;
+    display: flex;
+    width: 100%;
+}
+
+.heading{
+    font-size: 1.9rem;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+}
+
+.check-btn {
+    height: 18px;
+    width: 18px;
+}
