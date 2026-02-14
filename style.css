@@ -56,6 +56,16 @@ body {
     margin-bottom: 0.6rem;
 }
 
+.completed .text {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.completed .check-btn {
+    background-color: lightgreen;
+    border: green;
+}
+
 .delete-btn {
     border: none;
     background: transparent;
